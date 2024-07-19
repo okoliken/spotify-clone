@@ -1,0 +1,88 @@
+{
+	"/": [
+		"src/routes/+page.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/album/[id]": [
+		"src/routes/album/[id]/+page.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/api/auth/callback": [
+		"src/routes/api/auth/callback/+server.ts"
+	],
+	"/api/auth/login": [
+		"src/routes/api/auth/login/+server.ts"
+	],
+	"/api/auth/logout": [
+		"src/routes/api/auth/logout/+server.ts"
+	],
+	"/api/auth/refresh": [
+		"src/routes/api/auth/refresh/+server.ts"
+	],
+	"/api/average-color": [
+		"src/routes/api/average-color/+server.ts"
+	],
+	"/api/spotify/[...path]": [
+		"src/routes/api/spotify/[...path]/+server.ts"
+	],
+	"/artist/[id]": [
+		"src/routes/artist/[id]/+page.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/login": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/playlists": [
+		"src/routes/playlists/+page.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/playlists/new": [
+		"src/routes/playlists/new/+page.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/playlist": [
+		"src/routes/playlist/+page.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/playlist/[id]": [
+		"src/routes/playlist/[id]/+page.ts",
+		"src/routes/playlist/[id]/+page.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/playlist/[id]/edit": [
+		"src/routes/playlist/[id]/edit/+page.ts",
+		"src/routes/playlist/[id]/edit/+page.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/profile": [
+		"src/routes/profile/+page.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/search": [
+		"src/routes/search/+page.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/search/[query]": [
+		"src/routes/search/[query]/+page.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/[list=list]/[...rest]": [
+		"src/routes/[list=list]/[...rest]/+page.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.server.ts"
+	]
+}
