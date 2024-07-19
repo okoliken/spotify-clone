@@ -9,7 +9,7 @@
 	let navClicked = false; // Keeps track of weather we navigated using the back and forward buttons or navigated using a link or any other way in the app.
 
 	// After every navigation:
-	afterNavigate(({ from, to }) => {
+	afterNavigate(({ from }) => {
 		// If we navigated to our app from outside our app, we don't need to store a route in the back stack.
 		if (!from) return;
 		// If we navigated using the back and forward buttons, we don't need to re-store the routes again in the stack because we are just moving in the history we are not adding a new item to the stack.
