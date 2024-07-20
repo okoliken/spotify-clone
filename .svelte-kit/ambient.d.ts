@@ -100,7 +100,10 @@ declare module '$env/static/private' {
  * ```
  */
 declare module '$env/static/public' {
-
+	export const SPOTIFY_APP_CLIENT_ID: string;
+	export const SPOTIFY_APP_CLIENT_SECRET: string;
+	export const SPOTIFY_BASE_URL: string;
+	export const BASE_URL: string;
 }
 
 /**
